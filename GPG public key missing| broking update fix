@@ -1,0 +1,16 @@
+Hello interwabbers 
+
+on parrot we some times encounter problems with the GPG pub key. 
+here is how to fix it and get it updating again. 
+
+this fix also works for other versions of linux as long you change the gpg pub key or the distribo /os 
+
+wget -qO - https://archive.parrotsec.org/parrot/misc/parrotsec.gpg | apt-key add - 
+
+to us it or other os versions of linux 
+visit the page of of os and look for its latets package/misc/os.gpg and replace it with the url in the code above. 
+copy past the modify code in terminal and apt-get update --fix-missing 
+
+yours 
+
+Lulzboatcrew 
