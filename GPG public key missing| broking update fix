@@ -7,7 +7,7 @@ this fix also works for other versions of linux as long you change the gpg pub k
 
 wget -qO - https://archive.parrotsec.org/parrot/misc/parrotsec.gpg | apt-key add - 
 
-to us it or other os versions of linux 
+for other os follow following 
 visit the page of of os and look for its latets package/misc/os.gpg and replace it with the url in the code above. 
 copy past the modify code in terminal and apt-get update --fix-missing 
 
